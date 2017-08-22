@@ -1,0 +1,621 @@
+body {
+	-webkit-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+input,
+select,
+textarea {
+	max-width: 100% !important;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+noindex:-o-prefocus,
+input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+}
+
+/* ----------------------------------------------- JRAINSFORD STYLES --------------------------------------------*/
+
+header#page-header {
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+	position: relative;
+	text-align: left;
+	z-index: 1000;
+}
+
+nav#nav-primary {
+	position: relative;
+	top: 1em;
+	margin: 0 0 2.875em 0;
+	padding:0;
+	width: 100%;
+	overflow: hidden;
+}
+
+div#content{
+	width: 100%;
+	margin:-1.25em auto 0;
+	padding: 0 0 .5em 0;
+	position: relative;
+	z-index: 500;
+	background-image: url(i/footer_bg.png);
+	background-position: bottom right;
+	background-repeat: repeat-x;
+	
+}
+
+
+div#content article{
+	width: 90%;
+	padding: 2.56em 4% 2.56em 4%;
+	z-index:1000;
+	position: relative;
+	margin:0 auto;
+	box-shadow: 0;
+	-moz-box-shadow: 0;
+  	-webkit-box-shadow:0;
+}
+
+div#content aside{
+	clear: both;
+	width: 90%;
+	max-width: 43em;
+	padding: 2.56em 0 2.56em 0;
+	z-index:800;
+	position: relative;
+	margin:0 auto;
+}
+
+footer#page-footer {
+	width: 90%;
+	max-width: 43em;	
+	min-height: 3.125em;
+	margin: 0 auto 0;
+	padding: 1em 0 0 0;
+/*	background: url(/c/i/footer_bg.png) top right repeat-x;
+*/	background: none;
+	z-index: 2000;
+	position: relative;
+}
+
+nav#nav-complete{
+	width: 75%;
+	padding: 0 0 1.25em 7em;
+	position: relative;
+	background: url(i/crest.png) top left no-repeat;
+	margin: 0;
+	clear: both;
+	float: none;
+}
+
+nav#nav-complete section{
+	margin: 0 1.25em 0 0;
+	padding:.5em 0 0 0;
+	float: left;
+	width: 28%;
+}
+
+nav#nav-complete section ul{
+	margin: .31em 0 0 0;
+	padding:0;
+}
+
+nav#nav-complete section ul li{
+	margin:0;
+	padding:0 0 .31em 0;
+}
+
+footer#page-footer div#site-info{
+	padding: 1em 0 1em 7em;
+	width: 75%;
+	margin: 0;
+	position: relative;
+	clear: both;
+	float: none;
+	
+}
+
+footer#page-footer div#site-info img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+div.focal{
+	clear: both;
+	padding: .25em 0 .625em 0;
+	margin: 0 0 1.25em 0;
+	border-bottom: 1px solid #ddd;
+	overflow:hidden;
+}
+
+div.hp-example-q{
+	padding: 0 .625em 0 .31em;
+	border: 1px dotted #bbb;
+	margin: 1.25em 0;
+}
+
+section.question{
+	margin: 0 0 1.875em 0;
+	padding: 0;
+	position: relative;
+}
+
+section.good-response{
+	float: left;
+	width: 48%;
+	padding: 0;
+	clear: none;
+}
+
+section.poor-response{
+	float: right;
+	width: 48%;
+	padding: 0;
+	clear: none;
+	
+}
+
+section.expert-tip{
+	margin: 1.875em 0 1.25em 0;
+}
+
+section#related-reading{
+	background: #ebf2f5 url(i/button_bg_white.png);
+}
+
+img#hp-cartoon{
+	float: right;
+	border: 1px solid #666;
+	margin: 0 0 .625em 1.25em;
+}
+
+div.question-wrapper{
+	overflow: hidden;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+div.question-explanation{
+	padding: 1.25em 0;
+}
+
+form#search-form{
+	position: absolute;
+	top: 0;
+	right: 2%;
+	width: 2.25em;
+	overflow: hidden;
+}
+
+section.guide-related{
+	clear: both;
+	padding: 1.25em .94em;
+	margin: 0 0 0 1px;
+}
+
+section#standards-fact{
+}
+
+section#about{
+	margin: 0;
+}
+
+section#latest-news{
+	margin: 1.25em 0 0 0;
+}
+
+div#content nav.top-nav{
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+nav.nextprevnav{
+	padding: 1.25em 0 0 0;
+}
+
+div#contact-form{
+	padding: 1.25em 0;
+}
+
+#latest-news ol.news-list{
+    margin: 0 1.75em;
+}
+#latest-news ol.news-list li{
+    margin: 0 0 .625em 0;
+}
+#latest-news ol.news-list li strong{
+	display: block;
+	padding: 0 0 .31em 0;
+}
+
+/* ----------------------------------------------- SPECIFIC SECTION STYLES --------------------------------------------*/
+
+#page-header #logo{
+	font-size: 1em;
+	background: none;
+}
+
+#page-header #logo img{
+	max-width: 100%;
+}
+
+
+nav#nav-primary ul{
+	display: block;
+	font-size: 1em;
+	width: 98%;
+	margin:0 auto;
+	list-style: none;
+	position: relative;
+	border-right: 1px solid rgb(107, 66, 126);
+}
+
+@media screen and (min-width:40em) {
+	nav#nav-primary b {
+		display: block;
+	}
+}
+
+nav#nav-primary ul li{
+	float: left;
+	display: block;
+	margin:0;
+	padding:0;
+	width: auto;
+	min-width: 25%;
+}
+
+nav#nav-primary ul li a, nav#nav-primary ul li a:visited{
+	display: block;
+	padding: .4em .5em .4em .5em;
+	
+}
+
+nav#nav-primary ul li a:hover{
+}
+
+nav#nav-primary ul li strong{
+	margin:0 5px 0 0;
+	padding:0 0 2px 0;
+	display: block;
+	clear: right;
+}
+
+nav#nav-primary ul li#nav-home{
+	font-size: 1em;
+	width: 3.1em;
+	min-width: 3.1em;
+	margin:0;
+	padding:0;
+}
+
+nav#nav-primary ul li#nav-home a, nav#nav-primary ul li#nav-home a:visited, nav#nav-primary ul li#nav-home a:hover{
+	height: 3.85em;
+	padding:0;
+	margin:0;
+	display: block;
+	
+}
+
+nav#nav-primary ul li#nav-home mark{
+	display: block;
+}
+
+nav#nav-complete ul{
+	width: 8.75em;
+	float: left;
+	margin:.625em 0 0 0;
+	padding:0;
+}
+
+nav#nav-complete ul li{
+	margin: 0 0 .31em 0;
+}
+
+nav#nav-complete img{
+	float: left;
+	margin: 0 1.25em 0 0;
+}
+
+nav#nav-complete div#site-info p{
+	padding: .625em 0 0 0;
+}
+
+h1 img.h1icon{
+	margin: 0;
+}
+
+
+.question h1, .good-response h1, .poor-response h1, .additional-content h1, .expert-tip h1{
+	position: relative;
+	padding: .44em .625em .75em 2em;
+	display:inline;
+	margin:0;
+	background: none;
+}
+
+.question h1 img, .good-response h1 img, .poor-response h1 img, .expert-tip h1 img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+ol#interview-guide-q-list{
+	margin: .94em 0;
+	padding: 0;
+}
+
+ol#interview-guide-q-list li a, ol#interview-guide-q-list li a:visited {
+	display: block;
+	min-height: 3em;
+	padding: .5em 1.875em .625em 1.25em;
+	margin: 0 .625em .31em 1.875em;
+}
+
+ol#interview-guide-q-list li a strong{
+	display: block;
+	width: 2.5em;
+	height: 2.5em;
+	float: left;
+	margin: -0.5em 0 0 -3.125em;
+}
+
+section.question p{
+	padding: 0 1.25em 1.25em 1.2em;
+	margin: 0;
+
+}
+section.question h2, div.focal h2{
+	padding: 0 0 .31em 0;
+}
+
+section.question h2{
+	padding: .31em .94em .31em .94em;
+	margin: 0;
+}
+
+section#sample-question h2{
+	padding: .5em .94em 0.31em .6em;
+	margin: -0.31em 0 0 0;
+}
+
+section.question h1{
+	margin: 0;
+	padding-top: .625em;
+	display: inline;
+}
+section.question h1 img{
+	position: absolute;
+	top:.25em;
+	left:1px;
+}
+
+section.question img.cartoon{
+	margin: -0.31em 0 0 0;
+}
+
+section.good-response p{
+	margin: -0.5em 0 0 0;
+	padding: .94em .94em 0 .94em;
+	padding-bottom: 20010px;  /* X + padding-bottom */
+  	margin-bottom: -20000px;  /* X */
+}
+
+section.poor-response p{
+	margin: -0.5em 0 0 0;
+	padding: .94em .94em 0 .94em;
+	padding-bottom: 20010px;  /* X + padding-bottom */
+  	margin-bottom: -20000px;  /* X */
+}
+
+section.expert-tip p{
+	margin: -0.5em 0 0 0;
+	padding: .94em .625em .625em .625em;
+}
+
+section#related-reading ul{
+	padding: 0 .625em .625em .625em;
+	margin: 0 0 0 1.875em;
+}
+
+section#related-reading ul li{
+	padding: 0 0 .31em 2px;
+}
+
+section#related-reading .web-resources{
+	margin: 0;
+	padding: 0.625em;
+}
+
+section#related-reading .book-resources{
+	margin: 0 0 0 0;	
+	padding: 0.625em;
+}
+
+section#related-reading a, section#related-reading a:visited{
+	color: #8f6eab;
+	border-bottom: 1px dotted #8f6eab;
+}
+
+section#related-reading a:hover{
+	color: #64267E;
+	border-bottom: 1px solid #64267E;
+}
+
+div.focal a.primary{
+	width: 23.125em;
+	margin: .625em 0 0 0;
+}
+
+div#content aside p{
+	padding: 0 0 3px 0;
+}
+
+img.sponsor-logo{
+	margin: .94em 0 0 0;
+}
+
+div#content aside ul.go_further{
+	margin: .625em 0 0 1.19em;
+}
+
+div#content aside ul.go_further li{
+	padding: 0;
+}
+
+div#content aside ul.go_further a, div#content aside ul.go_further a:visited{
+	display: block;
+}
+
+div#content aside ul.go_further li a img{
+	float: left;
+	padding: 0;
+	margin: 0 .31em 0 0;
+}
+
+.additional-content h2, .additional-content h3, .additional-content h4, .additional-content h5, .additional-content h6{
+	padding: 0 25px .625em 1.56em;
+}
+
+section.additional-content h1 img{
+	position: absolute;
+	top:.94em;
+	left:.94em;
+}
+
+div#content aside section.additional-content p{
+	padding: 0 2.083em .625em 2.083em;
+}
+
+form#search-form p{
+	font-size: 1em;
+	display: block;
+	width: 14.625em;
+	height: 2.875em;
+	padding: 1px 0 0 2.25em;
+}
+
+form#search-form img#search-icon{
+	margin: 0;
+	float: left;
+}
+
+form#search-form img#search-icon:hover{
+	cursor: pointer;
+}
+
+form#search-form input#query{
+	margin: .44em 0 0 .44em;
+	height: 1.44em;
+	width: 9em;
+	padding:0;
+}
+
+form#search-form button#find{
+	float: right;
+	margin: .44em .44em 0 0;
+	height: 1.56em;
+	width: 3em;
+	-moz-border-radius: .75em;
+	border-radius: .75em;
+	cursor: pointer;
+}
+
+nav.nextprevnav p.prev{
+	display: block;
+	width: 45%;
+	float: left;
+	padding:1px 0 3px 0;
+	
+}
+
+nav.nextprevnav p.next{
+	display: block;
+	width: 45%;
+	float: right;
+	padding:1px 0 3px 0;
+}
+
+nav.nextprevnav p.prev a strong, nav.nextprevnav p.next a strong{
+	margin: -2px 0 0 0;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+	border-radius: 1em;
+	padding:1px 6px 3px 6px;
+}
+
+div#content nav.top_nav p{
+	margin:.625em 0 0 0;
+	padding:0;
+}
+
+nav.top_nav a strong{
+	margin: -2px 0 0 0;
+	-webkit-border-radius: .625em;
+	-moz-border-radius: .625em;
+	-o-border-radius: .625em;
+	border-radius: .625em;
+	padding:1px .375em 3px 375em;
+}
+
+
+div.focal a#proceedguide, div.focal a#downloadguidepdf{
+	max-width: 50%;
+	display: block;
+	padding: .625em;
+	margin: .625em auto;
+}
+
+/*
+div.focal a#proceedguide{
+	border-bottom-left-radius: 1.375em;
+	border-top-left-radius: 1.375em;
+	-moz-border-radius-bottomleft: 1.375em;
+	-moz-border-radius-topleft: 1.375em;
+	
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+	-moz-border-radius-topright: 0;
+}
+
+div.focal a#downloadguidepdf{
+	border-bottom-right-radius: 1.375em;
+	border-top-right-radius: 1.375em;
+	-moz-border-radius-bottomright: 1.375em;
+	-moz-border-radius-topright: 1.375em;
+	
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-topleft: 0;
+}
+*/
+
+#glossary nav ol{
+	list-style: none;
+	overflow: hidden;
+}
+
+#glossary nav ol li{
+	float: left;
+	margin:0;
+	padding:0 .5em;
+	border-left: 1px solid;
+}
+
+#glossary nav ol li:first-child{
+	border-left: none;
+	padding:0 .5em 0 0;
+	
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	 xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	 xmlns:admin="http://webns.net/mvcb/"
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		<title><![CDATA[Small Business + Web Standards Interview Guide]]></title>
+		<link>http://biz.webstandards.org/reviews/</link>
+		<description></description>
+		<dc:language>en</dc:language>
+		<dc:creator>aaron@easy-designs.net</dc:creator>
+		<dc:rights>Copyright 2011</dc:rights>
+		<dc:date>2011-05-02T21:47:48+00:00</dc:date>
+		<admin:generatorAgent rdf:resource="http://expressionengine.com/" />
+	
+		<item>
+			<title><![CDATA[Question 10]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/ownership</link>
+			<guid>http://biz.webstandards.org/interview-guide/ownership</guid>
+			<dc:date>2011-05-10T21:46:01+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 9]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/cost</link>
+			<guid>http://biz.webstandards.org/interview-guide/cost</guid>
+			<dc:date>2011-05-09T21:44:50+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 8]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/technology</link>
+			<guid>http://biz.webstandards.org/interview-guide/technology</guid>
+			<dc:date>2011-05-08T21:47:31+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 7]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/mobile</link>
+			<guid>http://biz.webstandards.org/interview-guide/mobile</guid>
+			<dc:date>2011-05-07T21:47:39+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 6]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/accessibility</link>
+			<guid>http://biz.webstandards.org/interview-guide/accessibility</guid>
+			<dc:date>2011-05-06T21:47:24+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 5]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/browsers</link>
+			<guid>http://biz.webstandards.org/interview-guide/browsers</guid>
+			<dc:date>2011-05-05T21:47:03+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 4]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/maintenance</link>
+			<guid>http://biz.webstandards.org/interview-guide/maintenance</guid>
+			<dc:date>2011-05-04T21:47:48+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 3]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/findability</link>
+			<guid>http://biz.webstandards.org/interview-guide/findability</guid>
+			<dc:date>2011-05-03T21:47:29+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 2]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/user-experience</link>
+			<guid>http://biz.webstandards.org/interview-guide/user-experience</guid>
+			<dc:date>2011-05-02T21:47:48+00:00</dc:date>
+		</item>
+	
+		<item>
+			<title><![CDATA[Question 1]]></title>
+			<dc:creator>Small Business + Web Standards</dc:creator>
+			<description><![CDATA[
+
+			]]></description>
+			<link>http://biz.webstandards.org/interview-guide/process</link>
+			<guid>http://biz.webstandards.org/interview-guide/process</guid>
+			<dc:date>2011-05-01T21:47:21+00:00</dc:date>
+		</item>
+	
+	</channel>
+</rss>

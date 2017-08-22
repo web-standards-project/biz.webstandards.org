@@ -1,0 +1,1228 @@
+/* ---------------------------------
+ * Core Stylesheet
+ * Created by the Web Standards Project
+ * --------------------------------- */
+
+/* ---------------------------------
+ * Reset Stylesheet
+ * http://meyerweb.com/eric/tools/css/reset/ 
+ * v2.0 | 20110126
+ * License: none (public domain)
+ * --------------------------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+
+
+
+
+
+body {
+  font: 100%/1.125 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif; /* 16px/18px */
+	text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4, h5, h6, .issue {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h1, h2 {
+  font-size: 1.25em; /* 20px */
+  line-height: 1; /* 20px */
+  margin-bottom: .2em; /* 4px */
+}
+section h1 {
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+header h1 {
+  font-size: 2.25em; /* 36px */
+  line-height: .944em; /* 34px */
+  margin: -.167em 0 .278em; /* -6px 0 10px */
+  text-transform: none;
+}
+.overlay h1 {
+	font-size: 1.25em; /* 20px */
+  line-height: 1; /* 20px */
+  margin-bottom: .2em; /* 4px */
+  text-transform: uppercase;
+}
+blockquote, figure, ol, p, pre, ul, dl {
+  font-size: 0.875em; /* 14px */
+  line-height: 1.5; /* 21px */
+  margin-bottom: 1.429em; /* 18px*/
+}
+blockquote:last-child, figure:last-child, ol:last-child, p:last-child, pre:last-child, ul:last-child {
+  margin-bottom: 0;
+}
+figure table p {
+	font-size: 1em;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+}
+li {
+  margin-left: 1.143em; /* 16px */
+}
+dt {
+	font-weight: bold;
+}
+dd {
+  margin-bottom: 1.429em; /* 18px*/
+}
+blockquote > blockquote, blockquote > figure, blockquote > ol, blockquote > p, blockquote > pre, blockquote > ul,
+li ol, li ul, dd > blockquote, dd > figure, dd > ol, dd > p, dd > pre, dd > ul {
+  font-size: 1em;
+}
+pre, code, kbd {
+  font-family: Monaco, 'Courier New', Courier, monospace;
+	font-style: normal;
+}
+code, kbd {
+  font-size: 0.857em; /* 12px */
+}
+kbd {
+	border: 1px solid;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0 2px;
+	whitespace: nowrap;
+}
+em, cite, dfn {
+  font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+form ol {
+  margin: 0;
+}
+form li {
+  list-style: none;
+  margin: 0 0 1em;
+}
+form li:last-child {
+  margin: 0;
+}
+input, select, textarea {
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 2px solid;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0 4px;
+  margin: 0;
+  vertical-align: baseline;
+}
+input[type=hidden] {
+	display: none;
+}
+textarea {
+  line-height: 1.5;
+  vertical-align: top;
+}
+form button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  margin-left: 0;
+  vertical-align: baseline;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px dotted;
+	
+}
+
+a:visited{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	
+}
+
+a:hover{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	
+}
+
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link{
+	border-bottom: 1px dotted;
+}
+
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited{
+	border-bottom: 1px dotted;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
+	border-bottom: 1px solid;
+}
+
+time {
+	white-space: nowrap;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid;
+	padding: 1em;
+	text-align: left;
+	vertical-align: top;
+}
+thead th {
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+	letter-spacing: .1em;
+	padding: 1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+thead .superheader th {
+	font-size: 1.5em;
+	padding: .6667em .6667em 0 .6667em;
+}
+thead .subheader th {
+	padding-top: .5em;
+}
+tfoot th, tfoot td {
+	border-top: 4px solid;
+	font-size: 1.0714em;
+	font-weight: bold;
+}
+th:first-child, td:first-child {
+	border-left: 0;
+	padding-left: 0;
+}
+th:last-child, td:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+tr:last-child th, tr:last-child td {
+	border-bottom: 0;
+}
+.integer {
+	text-align: center;
+}
+.leading, .decimal {
+	text-align: right;
+}
+
+#nav-complete section h1{
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: none;
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+}
+
+div#content{
+	text-align: left;
+}
+
+div#content nav.top-nav{
+	text-align: right;
+}
+
+#latest-news ol.news-list{list-style:none;}
+#latest-news ol.news-list li{
+    font-size: .625em;
+    line-height: 1.5em;
+}
+
+#page-header #logo a, #page-header #logo a:visited{
+}
+
+#page-header #logo a:hover{
+}
+
+nav#nav-primary ul{
+	list-style: none;
+}
+
+nav#nav-primary ul li{
+}
+
+nav#nav-primary ul li a, nav#nav-primary ul li a:visited{
+	border-bottom: none;
+	font-size: .8125em;
+}
+
+nav#nav-primary ul li a:hover{
+}
+
+nav#nav-primary ul li strong{
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+nav#nav-complete ul{
+	list-style: none;
+
+}
+
+nav#nav-complete ul li{
+	font-size: .6875em;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+nav#nav-complete a:link, #site-info a:link{
+	border-bottom: 1px dotted;
+}
+
+nav#nav-complete a:visited, #site-info a:visited{
+	border-bottom: 1px dotted;
+}
+
+nav#nav-complete a:hover, #site-info a:hover{
+	border-bottom: 1px dotted;
+}
+
+nav#nav-complete div#site-info p{
+	font-size: .625em;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+nav#nav-complete div#site-info strong{
+	font-size: .75em;
+}
+
+ol#interview-guide-q-list{
+	list-style: none;
+}
+
+ol#interview-guide-q-list li a, ol#interview-guide-q-list li a:visited {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+ol#interview-guide-q-list li a strong{
+	line-height: 2.5em;
+	text-align: center;
+	font-size: .94em;
+}
+
+section.question p{
+	font-size: 13px;
+}
+
+section.question h2, div.focal h2{
+	font-weight: normal;
+	font-size: 2em;
+	line-height: 1.25em;
+	font-family: "Georgia", "Times New Roman", "Times", serif;	
+}
+
+section.question h2{
+	line-height: 1.25em;
+}
+
+section#sample-question h2{
+	font-size: 1.5em;
+}
+
+
+section.question h1{
+	line-height: 2.63em;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+section.good-response p{
+	font-size: .8125em;
+}
+
+section.good-response h1{
+	line-height: 2.5em;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+section.poor-response p{
+	font-size: .8125em;
+}
+
+section.poor-response h1{
+	line-height: 2.5em;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+section.expert-tip p{
+	font-size: .8125em;
+	font-style: italic;
+}
+
+section.expert-tip h1{
+	line-height: 2.5em;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+section.expert-tip li{
+	font-size: .9em;
+	font-style: italic;
+	
+}
+section#related-reading ul li{
+	font-size: .75em;
+	line-height: 1.4em;
+}
+
+div.focal a.primary{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#content aside p{
+	font-size: .875em;
+	line-height: 1.4em;
+}
+
+div#content aside h4, div#content aside h5, div#content aside h6{
+	font-size: 1em;
+}
+
+
+div#content aside ul.go_further{
+	list-style: none;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+div#content aside ul.go_further li{
+	font-size: .6875em;
+	line-height: 1.25em;
+}
+
+div#content aside ul.go_further a:hover{
+	text-decoration: underline;
+}
+
+div#content aside a#download-guide{
+	font-size: .8125em;
+	text-align: left;
+}
+
+div#content aside p.download-description{
+	font-size: .6875em;
+	text-align: left;
+	color: #666;
+}
+
+section.additional-content h1{
+	line-height: 1.5em;
+	font-size: .875em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+	font-weight: bold;
+}
+
+.additional-content h2, .additional-content h3, .additional-content h4, .additional-content h5, .additional-content h6{
+	font-size: .875em;
+	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+div#content aside section.additional-content p{
+	font-size: .75em;
+	line-height: 1.5em;
+}
+
+form#search-form button#find{
+	font-size: .6875em;
+	line-height: 1.375em;
+}
+
+nav.nextprevnav p.prev{
+	font-size: .75em;
+	line-height: 1.5em;
+	text-align: left;	
+}
+
+nav.nextprevnav p.next{
+	font-size: .75em;
+	line-height: 1.5em;
+	text-align: right;
+}
+
+div#content nav.top_nav p{
+	text-align: right;
+	font-size: .75em;
+}
+
+
+div.focal a#proceedguide, div.focal a#downloadguidepdf{
+	text-align: center;
+	text-shadow: 0 0 1px #000;
+	font-family: "Lucida Grande", "Lucida Sans", "Verdana", sans-serif;
+}
+
+#latest-news ol.news-list li{
+    font-size: .6875em;
+    line-height: 1.5em;
+}
+
+#latest-news ol.news-list li strong{
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+
+#page-footer #site-info p#ownership{
+	font-size: .75em;
+	font-weight: bold;
+	margin:0;
+	padding:0 0 .31em 0;
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+	
+}
+
+#page-footer #site-info p#license{
+	font-size: .625em;
+	margin:0;
+	padding:0;
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+}
+
+.good-response h1, .poor-response h1, .question h1, .expert-tip h1{
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#search-form button{
+	float: right;
+	font-size: .7em;
+	margin: 9px 5px 0 0;
+}
+
+div#content aside section#download-full p a#download_guide, div#content aside section#download-and-share p a#download_guide{
+	font-size: 1.4em;
+}
+
+div#content aside section#download-full p, div#content aside section#download-and-share p{
+	font-size: .6em;
+}
+
+aside ul.go_further li{
+	font-size: .8em;
+	line-height: 1.8em;
+}
+
+aside ul.go_further a:hover{
+	text-decoration: underline;
+}
+
+ol#interview_guide_index{
+	font-weight: bold;
+}
+ol#interview_guide_index li a, ol#interview_guide_index li a:visited {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.5em;
+	border-bottom: none;
+}
+
+#contact p.rule, #contact p.rule em{
+	font-size: 1em;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#contact label{
+	font-weight: bold;
+}
+
+#contact em.notes{
+	font-size: .875em;
+}
+
+.primary{
+	font-size: .875em;
+}
+/* Classifications */
+button, .button, .buttons a, .more a {
+	-khtml-border-radius: 5px;
+  	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 0;
+	font-family: 'Lucida Grande', Helvetica, Verdana, Arial, sans-serif;
+	font-size: .7143em; /* 10px */
+	letter-spacing: .1em;
+  line-height: 1;
+  margin: 0 6px;
+	padding: 5px 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	background: #280140 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8F6DAB), to(#280140));
+}
+
+button:hover, .button:hover{
+	background: #8F6DAB -webkit-gradient(linear, 0% 0%, 0% 100%, from(#280140), to(#8f6dab));
+}
+
+.button:after, .buttons a:after, .mobile .prev .buttons a:after, .more a:after, .buttons mark:after {
+  content: ' →';
+}
+.prev a:after, #registration-confirmation a:after {
+  content: '';
+}
+.buttons .prev a:before, .buttons.prev a:before {
+  content: '← ';
+}
+p.more {
+  margin-top: -.8247em; /* 12px*/
+  text-align: right;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+input,
+select,
+textarea {
+	max-width: 100% !important;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+noindex:-o-prefocus,
+input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+}
+
+/* ----------------------------------------------- JRAINSFORD STYLES --------------------------------------------*/
+
+header#page-header {
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+	position: relative;
+	text-align: left;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+nav#nav-primary {
+	position: relative;
+	margin: 0 0 1.875em 0;
+	padding:0;
+	width: 100%;
+	background: url(i/nav_bg.png) top left repeat-x; /*Here due to mobile stylesheet change*/
+	clear: both;
+}
+
+div#content{
+	width: 100%;
+	margin:-1.25em auto 0;
+	padding: 0 0 .5em 0;
+	position: relative;
+	z-index: 500;
+}
+
+
+div#content article{
+	width: 96%;
+	padding: 2.56em 2% 2.56em 2%;
+	z-index:1000;
+	position: relative;
+	margin:0 auto;
+	box-shadow: none;
+	-moz-box-shadow: none;
+  	-webkit-box-shadow: none;
+}
+
+div#content aside{
+	clear: both;
+	width: 96%;
+	padding: 2.56em 2% 2.56em 2%;
+	z-index:800;
+	position: relative;
+	margin:0 auto;
+}
+
+footer#page-footer {
+	width: 100%;
+	min-height: 3.125em;
+	margin: -2em 0 0 0;
+	padding: 2.5em 0 0 0;
+	background: url(i/footer_bg.png) top right repeat-x;
+	z-index: 2000;
+	position: relative;
+}
+
+nav#nav-complete{
+	width: 55%;
+	float: left;
+	min-height: 6.25em;
+	padding: 7em 0 1.25em 0;
+	position: relative;
+	background: url(i/crest.png) top left no-repeat;
+	margin: 0 0 0 5%;
+}
+
+nav#nav-complete section{
+	float: left;
+	margin: 0 1.25em 0 0;
+	padding:.5em 0 0 0;
+}
+
+nav#nav-complete section ul{
+	margin: .31em 0 0 0;
+	padding:0;
+}
+
+nav#nav-complete section ul li{
+	margin:0;
+	padding:0 0 .31em 0;
+}
+
+footer#page-footer div#site-info{
+	padding: 7em 0 1em 0;
+	min-height: 6.25em;
+	width: 30%;
+	margin: 0 5% 0 0;
+	float: right;
+	position: relative;
+}
+
+footer#page-footer div#site-info img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+div.focal{
+	clear: both;
+	padding: .25em 0 .625em 0;
+	margin: 0 0 1.25em 0;
+	border-bottom: 1px solid #ddd;
+	overflow:hidden;
+}
+
+div.hp-example-q{
+	padding: 0 .625em 0 .31em;
+	border: 1px dotted #bbb;
+	margin: 1.25em 0;
+}
+
+section.question{
+	margin: 0 0 1.875em 0;
+	padding: 0;
+	position: relative;
+}
+
+section.good-response{
+	width: 100%;
+	clear: both;
+	padding: 0;
+	margin: 0 0 1.875em 0;
+	
+}
+
+section.poor-response{
+	width: 100%;
+	clear: both;
+	padding: 0;
+}
+
+section.expert-tip{
+	margin: 1.875em 0 1.25em 0;
+}
+
+section#related-reading{
+	background: #ebf2f5 url(i/button_bg_white.png);
+}
+
+img#hp-cartoon{
+	float: right;
+	border: 1px solid #666;
+	margin: 0 0 .625em 1.25em;
+}
+
+div.question-wrapper{
+	overflow: hidden;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+div.question-explanation{
+	padding: 1.25em 0;
+}
+
+form#search-form{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2.25em;
+	overflow: hidden;
+}
+
+section.guide-related{
+	clear: both;
+	padding: 1.25em .94em;
+	margin: 0 0 0 1px;
+}
+
+section.additional-content{
+	clear: both;
+	padding: 1.25em 0;
+	margin: 0 0 1.25em 1px;
+}
+
+section#standards-fact{
+}
+
+section#about{
+	margin: 0;
+}
+
+section#latest-news{
+	margin: 1.25em 0 0 0;
+}
+
+div#content nav.top-nav{
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+nav.nextprevnav{
+	padding: 1.25em 0 0 0;
+}
+
+div#contact-form{
+	padding: 1.25em 0;
+}
+
+#latest-news ol.news-list{
+    margin: 0 1.75em;
+}
+#latest-news ol.news-list li{
+    margin: 0 0 .625em 0;
+}
+#latest-news ol.news-list li strong{
+	display: block;
+	padding: 0 0 .31em 0;
+}
+
+/* ----------------------------------------------- SPECIFIC SECTION STYLES --------------------------------------------*/
+
+#page-header #logo{
+	font-size: 1em;
+	display: block;
+	width: 85%;
+	background: none;
+	padding:.8em 2% 0 2%;
+	margin: 0;
+	float: left;
+	clear: both;
+	text-align: left;
+}
+#page-header #logo img{
+	margin:0;
+	max-width: 100%;
+	max-height: 100%;
+	
+}
+
+nav#nav-primary ul{
+	font-size: 1em;
+	width: 100%;
+	margin: 3.5em auto 0;
+	padding: 0;
+	list-style: none;
+	display: table;
+}
+
+
+nav#nav-primary b {
+	display: none;
+}
+
+nav#nav-primary ul li{
+	display: table-cell;
+	margin:0;
+	padding:0;
+	border: 0;
+	border-left: 1px solid;
+	width:  33.3333334%;
+}
+
+nav#nav-primary ul li a, nav#nav-primary ul li a:visited{
+	display: block;
+	padding: 10px;
+	white-space: nowrap;
+}
+
+nav#nav-primary ul li a:hover{
+}
+
+nav#nav-primary ul li strong{
+	margin:0;
+	padding:0 10px 2px 0;
+}
+
+nav#nav-primary ul li#nav-home{
+	font-size: 1em;
+	display: none;
+}
+
+nav#nav-primary ul li#nav-home a, nav#nav-primary ul li#nav-home a:visited, nav#nav-primary ul li#nav-home a:hover{
+	padding:0;
+	margin:0;
+	display: block;
+}
+
+nav#nav-primary ul li#nav-home mark{
+	display: block;
+}
+
+/* Here due to Mobile Stylesheet */
+nav#nav-primary ul li#nav-home a, nav#nav-primary ul li#nav-home a:visited{
+	background: none;
+}
+
+nav#nav-primary ul li#nav-home a:hover{
+	background: rgb(100, 38, 126);
+}
+/*---*/
+
+nav#nav-complete ul{
+	width: 8.75em;
+	float: left;
+	margin:.625em 0 0 0;
+	padding:0;
+}
+
+nav#nav-complete ul li{
+	margin: 0 0 .31em 0;
+}
+
+nav#nav-complete img{
+	float: left;
+	margin: 0 1.25em 0 0;
+}
+
+nav#nav-complete div#site-info p{
+	padding: .625em 0 0 0;
+}
+
+h1 img.h1icon{
+	margin: 0;
+}
+
+
+.question h1, .good-response h1, .poor-response h1, .additional-content h1, .expert-tip h1{
+	position: relative;
+	padding: .44em .625em .75em 2em;
+	display:inline;
+	margin:0;
+	background: none;
+}
+
+.question h1 img, .good-response h1 img, .poor-response h1 img, .expert-tip h1 img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+ol#interview-guide-q-list{
+	margin: .94em 0;
+	padding: 0;
+}
+
+ol#interview-guide-q-list li a, ol#interview-guide-q-list li a:visited {
+	display: block;
+	min-height: 3em;
+	padding: .5em 1.875em .625em 1.25em;
+	margin: 0 .625em .31em 1.875em;
+}
+
+ol#interview-guide-q-list li a strong{
+	display: block;
+	width: 2.5em;
+	height: 2.5em;
+	float: left;
+	margin: -0.5em 0 0 -3.125em;
+}
+
+section.question p{
+	padding: 0 1.25em 1.25em 1.2em;
+	margin: 0;
+
+}
+section.question h2, div.focal h2{
+	padding: 0 0 .31em 0;
+}
+
+section.question h2{
+	padding: .31em .94em .31em .94em;
+	margin: 0;
+}
+
+section#sample-question h2{
+	padding: .5em .94em 0.31em .6em;
+	margin: -0.31em 0 0 0;
+}
+
+section.question h1{
+	margin: 0;
+	padding-top: .625em;
+	display: inline;
+}
+section.question h1 img{
+	position: absolute;
+	top:.25em;
+	left:1px;
+}
+
+section.question img.cartoon{
+	display: block;
+	margin: -0.31em 0 0 0;
+	width: 100%;
+	height: auto;
+}
+
+section.good-response p{
+	margin: -0.5em 0 .5em 0;
+	padding: .94em;
+}
+
+section.poor-response p{
+	margin: -0.5em 0 .5em 0;
+	padding: .94em;
+}
+
+section.expert-tip p{
+	margin: -0.5em 0 .5em 0;
+	padding: .94em;
+}
+section#related-reading ul{
+	padding: 0 .625em .625em .625em;
+	margin: 0 0 0 1.875em;
+}
+
+section#related-reading ul li{
+	padding: 0 0 .31em 2px;
+}
+
+section#related-reading .web-resources{
+	margin: 0;
+	padding: 0.625em;
+}
+
+section#related-reading .book-resources{
+	margin: 0 0 0 0;	
+	padding: 0.625em;
+}
+
+section#related-reading a, section#related-reading a:visited{
+	color: #8f6eab;
+	border-bottom: 1px dotted #8f6eab;
+}
+
+section#related-reading a:hover{
+	color: #64267E;
+	border-bottom: 1px solid #64267E;
+}
+
+div.focal a.primary{
+	width: 23.125em;
+	margin: .625em 0 0 0;
+}
+
+div#content aside p{
+	padding: 0 0 3px 0;
+}
+
+img.sponsor-logo{
+	margin: .94em 0 0 0;
+}
+
+div#content aside ul.go_further{
+	margin: .625em 0 0 1.19em;
+	list-style: none;
+}
+
+div#content aside ul.go_further li{
+	margin: 0 0 .25em;
+	padding: 0;
+	clear: both;
+}
+
+div#content aside ul.go_further a, div#content aside ul.go_further a:visited{
+	display: block;
+	line-height: 20px;
+}
+
+div#content aside ul.go_further li a img{
+	float: left;
+	padding: 0;
+	margin: 0 .31em 0 0;
+}
+
+div#content aside a#download-guide{
+	margin: 0;
+	clear: both;
+	padding-left: 1.25em;
+}
+
+div#content aside p.download-description{
+	margin: .625em 0 0 0;
+	padding: 0 1.25em;
+}
+
+section.additional-content h1{
+	display: block;
+	padding: .94em .625em .625em 2.81em;
+	margin: -1.5em 0 .94em 0;
+}
+
+.additional-content h2, .additional-content h3, .additional-content h4, .additional-content h5, .additional-content h6{
+	padding: 0 25px .625em 1.56em;
+}
+
+section.additional-content h1 img{
+	position: absolute;
+	top:.94em;
+	left:.94em;
+}
+
+div#content aside section.additional-content p{
+	padding: 0 2.083em .625em 2.083em;
+}
+
+form#search-form p{
+	font-size: 1em;
+	display: block;
+	width: 14.625em;
+	height: 2.875em;
+	padding: 1px 0 0 2.25em;
+}
+
+form#search-form img#search-icon{
+	margin: 0;
+	float: left;
+}
+
+form#search-form img#search-icon:hover{
+	cursor: pointer;
+}
+
+form#search-form input#query{
+	margin: .44em 0 0 .44em;
+	height: 1.44em;
+	width: 9em;
+	padding:0;
+}
+
+form#search-form button#find{
+	float: right;
+	margin: .44em .44em 0 0;
+	height: 1.56em;
+	width: 3em;
+	-moz-border-radius: .75em;
+	border-radius: .75em;
+	cursor: pointer;
+}
+
+nav.nextprevnav p.prev{
+	display: block;
+	width: 45%;
+	float: left;
+	padding:1px 0 3px 0;
+	
+}
+
+nav.nextprevnav p.next{
+	display: block;
+	width: 45%;
+	float: right;
+	padding:1px 0 3px 0;
+}
+
+nav.nextprevnav p.prev a strong, nav.nextprevnav p.next a strong{
+	margin: -2px 0 0 0;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-o-border-radius: 1em;
+	border-radius: 1em;
+	padding:1px 6px 3px 6px;
+}
+
+div#content nav.top_nav p{
+	margin:.625em 0 0 0;
+	padding:0;
+}
+
+nav.top_nav a strong{
+	margin: -2px 0 0 0;
+	-webkit-border-radius: .625em;
+	-moz-border-radius: .625em;
+	-o-border-radius: .625em;
+	border-radius: .625em;
+	padding:1px .375em 3px 375em;
+}
+
+
+div.focal a#proceedguide, div.focal a#downloadguidepdf{
+	width: 94%;
+	display: block;
+	float: none;
+	padding: .625em;
+	margin: .625em auto;
+}
+
+div.focal a#proceedguide{
+	-moz-border-radius: 1.375em;
+	border-radius: 1.375em;
+}
+
+div.focal a#downloadguidepdf{
+	-moz-border-radius: 1.375em;
+	border-radius: 1.375em;
+}
+
+#the-team ul, #site-credits ul {
+	font-size: .8em;
+	list-style: none;
+	padding: 0 2.083em;
+}
+#the-team li, #site-credits li {
+	margin: 0;
+}
+
+ol#interview_guide_index li a, ol#interview_guide_index li a:visited {
+	display: block;
+	min-height: 3.8em;
+	padding: 1em 1.5em;
+	margin: 0 1em .5em 0;
+}
